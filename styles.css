@@ -1,0 +1,140 @@
+﻿/* Part 2: Basic Styling */
+
+/* Apply a background color for the entire webpage */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif; /* Set a web-safe font */
+    font-size: 16px; /* Default font size */
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font sizes for headings */
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+/* Part 3: Layout Using the Box Model */
+
+/* Center-align the main header */
+h1 {
+    text-align: center;
+    background-color: #4682b4; /* Steel blue background for header */
+    color: #ffffff;
+    padding: 20px;
+    border-bottom: 2px solid #000080; /* Navy border */
+}
+
+/* Styling the div sections */
+div {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd; /* Light gray border */
+    background-color: #ffffff;
+}
+
+/* Style for the about-me section */
+#about-me {
+    border-left: 5px solid #4682b4;
+    padding-left: 10px;
+}
+
+/* Style for the skills section */
+#skills {
+    border-left: 5px solid #32cd32; /* Lime green border */
+    padding-left: 10px;
+}
+
+/* Style for the projects section */
+#projects {
+    border-left: 5px solid #ffa500; /* Orange border */
+    padding-left: 10px;
+}
+
+/* Part 5: Lists Styling */
+
+/* Style unordered lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Style ordered lists */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* Part 4: Styling Forms and Tables */
+
+/* Style form elements */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Style for input fields */
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    /* Change button color on hover */
+    button[type="submit"]:hover {
+        background-color: #5a9bd3; /* Lighter shade of blue */
+    }
+
+/* Style the table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Style table cells and headers */
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
